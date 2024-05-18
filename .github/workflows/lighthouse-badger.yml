@@ -12,8 +12,6 @@ name: "Lighthouse Badger"
 # DEFINE YOUR INPUTS AND TRIGGERS IN THE FOLLOWING
 ########################################################################
 
-
-
 # INPUTS as environmental variables (env) for not manually triggered workflows
 env:
   URLS: https://alshedivat.github.io/al-folio/

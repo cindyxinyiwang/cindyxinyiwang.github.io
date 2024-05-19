@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Google DeepMind</a>.
+subtitle: <a href='#'>Google DeepMind</a>. cindyxinyiwang[at]gmail.com
 
 #profile:
 #  align: right
@@ -15,5 +15,5 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-I am a research scientist at Google DeepMind specializing in natural language processing and large language models. My work concentrates on developing robust and reliable LLMs. Before joining Google, I received a PhD degree from the Language Technologies Institute at Carnegie Mellon University.
+I am a research scientist at Google DeepMind specializing in natural language processing and large language models. My work focuses on developing robust and reliable LLMs. Before joining Google, I received a PhD degree from the Language Technologies Institute at Carnegie Mellon University.
 

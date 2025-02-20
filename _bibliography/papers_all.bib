@@ -1,0 +1,117 @@
+---
+---
+@article{lin2024multitask,
+  title={Multitask Multilingual Model Adaptation with Featurized Low-Rank Mixtures},
+  author={Lin, Chu-Cheng and Wang, Xinyi and Clark, Jonathan H and Lu, Han and Zhu, Yun and Whitehouse, Chenxi and Yu, Hongkun},
+  journal={arXiv preprint arXiv:2402.17934},
+  year={2024}
+}
+
+@article{team2023gemini,
+  title={Gemini: a family of highly capable multimodal models},
+  author={Team, Gemini and Anil, Rohan and Borgeaud, Sebastian and Wu, Yonghui and Alayrac, Jean-Baptiste and Yu, Jiahui and Soricut, Radu and Schalkwyk, Johan and Dai, Andrew M and Hauth, Anja and others},
+  journal={arXiv preprint arXiv:2312.11805},
+  year={2023}
+}
+
+@article{zhu2023sira,
+  title={Sira: Sparse mixture of low rank adaptation},
+  author={Zhu, Yun and Wichers, Nevan and Lin, Chu-Cheng and Wang, Xinyi and Chen, Tianlong and Shu, Lei and Lu, Han and Liu, Canoee and Luo, Liangchen and Chen, Jindong and others},
+  journal={arXiv preprint arXiv:2311.09179},
+  year={2023}
+}
+
+@article{chronopoulou2023language,
+  title={Language and Task Arithmetic with Parameter-Efficient Layers for Zero-Shot Summarization},
+  author={Chronopoulou, Alexandra and Pfeiffer, Jonas and Maynez, Joshua and Wang, Xinyi and Ruder, Sebastian and Agrawal, Priyanka},
+  journal={arXiv preprint arXiv:2311.09344},
+  year={2023}
+}
+
+@inproceedings{pfeiffer-etal-2023-mmt5,
+    title = "mm{T}5: Modular Multilingual Pre-Training Solves Source Language Hallucinations",
+    author = "Pfeiffer, Jonas  and
+      Piccinno, Francesco  and
+      Nicosia, Massimo  and
+      Wang, Xinyi  and
+      Reid, Machel  and
+      Ruder, Sebastian",
+    editor = "Bouamor, Houda  and
+      Pino, Juan  and
+      Bali, Kalika",
+    booktitle = "EMNLP Findings",
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.findings-emnlp.132",
+    doi = "10.18653/v1/2023.findings-emnlp.132",
+    pages = "1978--2008",
+    abstract = "Multilingual sequence-to-sequence models perform poorly with increased language coverage and fail to consistently generate text in the correct target language in few-shot settings. To address these challenges, we propose mmT5, a modular multilingual sequence-to-sequence model. mmT5 utilizes language-specific modules during pre-training, which disentangle language-specific information from language-agnostic information. We identify representation drift during fine-tuning as a key limitation of modular generative models and develop strategies that enable effective zero-shot transfer. Our model outperforms mT5 at the same parameter sizes by a large margin on representative natural language understanding and generation tasks in 40+ languages. Compared to mT5, mmT5 raises the rate of generating text in the correct language under zero-shot settings from 7{\%} to 99{\%}, thereby greatly alleviating the source language hallucination problem.",
+}
+
+@inproceedings{muller-etal-2023-evaluating,
+    title = "Evaluating and Modeling Attribution for Cross-Lingual Question Answering",
+    author = "Muller, Benjamin  and
+      Wieting, John  and
+      Clark, Jonathan  and
+      Kwiatkowski, Tom  and
+      Ruder, Sebastian  and
+      Soares, Livio  and
+      Aharoni, Roee  and
+      Herzig, Jonathan  and
+      Wang, Xinyi",
+    editor = "Bouamor, Houda  and
+      Pino, Juan  and
+      Bali, Kalika",
+    booktitle = "EMNLP",
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.emnlp-main.10",
+    doi = "10.18653/v1/2023.emnlp-main.10",
+    pages = "144--157",
+    abstract = "Trustworthy answer content is abundant in many high-resource languages and is instantly accessible through question answering systems {---} yet this content can be hard to access for those that do not speak these languages. The leap forward in cross-lingual modeling quality offered by generative language models offers much promise, yet their raw generations often fall short in factuality. To improve trustworthiness in these systems, a promising direction is to attribute the answer to a retrieved source, possibly in a content-rich language different from the query. Our work is the first to study attribution for cross-lingual question answering. First, we collect data in 5 languages to assess the attribution level of a state-of-the-art cross-lingual QA system. To our surprise, we find that a substantial portion of the answers is not attributable to any retrieved passages (up to 50{\%} of answers exactly matching a gold reference) despite the system being able to attend directly to the retrieved text. Second, to address this poor attribution level, we experiment with a wide range of attribution detection techniques. We find that Natural Language Inference models and PaLM 2 fine-tuned on a very small amount of attribution data can accurately detect attribution. With these models, we improve the attribution level of a cross-lingual QA system. Overall, we show that current academic generative cross-lingual QA systems have substantial shortcomings in attribution and we build tooling to mitigate these issues.",
+}
+
+@inproceedings{ruder-etal-2023-xtreme,
+    title = "{XTREME}-{UP}: A User-Centric Scarce-Data Benchmark for Under-Represented Languages",
+    author = "Ruder, Sebastian  and
+      Clark, Jonathan  and
+      Gutkin, Alexander  and
+      Kale, Mihir  and
+      Ma, Min  and
+      Nicosia, Massimo  and
+      Rijhwani, Shruti  and
+      Riley, Parker  and
+      Sarr, Jean-Michel  and
+      Wang, Xinyi  and
+      Wieting, John  and
+      Gupta, Nitish  and
+      Katanova, Anna  and
+      Kirov, Christo  and
+      Dickinson, Dana  and
+      Roark, Brian  and
+      Samanta, Bidisha  and
+      Tao, Connie  and
+      Adelani, David  and
+      Axelrod, Vera  and
+      Caswell, Isaac  and
+      Cherry, Colin  and
+      Garrette, Dan  and
+      Ingle, Reeve  and
+      Johnson, Melvin  and
+      Panteleev, Dmitry  and
+      Talukdar, Partha",
+    editor = "Bouamor, Houda  and
+      Pino, Juan  and
+      Bali, Kalika",
+    booktitle = "EMNLP Findings 2023",
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.findings-emnlp.125",
+    doi = "10.18653/v1/2023.findings-emnlp.125",
+    pages = "1856--1884",
+    abstract = "Data scarcity is a crucial issue for the development of highly multilingual NLP systems. Yet for many under-represented languages (ULs) {---} languages for which NLP research is particularly far behind in meeting user needs {---} it is feasible to annotate small amounts of data. Motivated by this, we propose XTREME-UP, a benchmark defined by: its focus on the scarce-data scenario rather than zero-shot; its focus on user-centric tasks {---} tasks with broad adoption by speakers of high-resource languages; and its focus on under-represented languages where this scarce-data scenario tends to be most realistic. XTREME-UP evaluates the capabilities of language models across 88 under-represented languages over 9 key user-centric technologies including ASR, OCR, MT, and information access tasks that are of general utility. We create new datasets for OCR, autocomplete, semantic parsing, and transliteration, and build on and refine existing datasets for other tasks. XTREME-UP provides methodology for evaluating many modeling scenarios including text only, multi-modal (vision, audio, and text), supervised parameter tuning, and in-context learning. We evaluate commonly used models on the benchmark. We release all code and scripts to train and evaluate models.",
+}
+

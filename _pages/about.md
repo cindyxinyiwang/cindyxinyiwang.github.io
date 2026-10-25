@@ -2,8 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Google DeepMind</a>. cindyxinyiwang[at]gmail.com
-
+subtitle: Research scientist at <a href="https://www.databricks.com/research/mosaic">Databricks Mosaic Research</a>
 #profile:
 #  align: right
 #  image: prof.jpg
@@ -15,7 +14,6 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-I am a research scientist at Google DeepMind working on natural language processing and large language models. My work focuses on developing data-efficient, reliable LLMs and the multilingual aspect of this challenge. 
+I am a research scientist at [Databricks Mosaic Research](https://www.databricks.com/research/mosaic), working on post-training efficient small models for agents. Previously, I was a research scientist at [Google DeepMind](https://deepmind.google/), working on Gemini factuality. 
 
-Before joining Google, I received a PhD degree from the Language Technologies Institute at Carnegie Mellon University working with <a href='https://www.phontron.com/'>Graham Neubig</a>, where I worked on multilingual machine translation and pretrained language models. Before that, I did my undergrad at University of Notre Dame in Computer Science and Economics, where I worked with <a href='https://www3.nd.edu/~dchiang/'>David Chiang</a> on Natural Language Processing.
-
+I received a PhD degree from the Language Technologies Institute at [Carnegie Mellon University](#) working with [Graham Neubig](https://www.phontron.com/), where I worked on data-efficient NLP methods, specifically on multilingual machine translation and language models. Before that, I did my undergrad at University of Notre Dame in Computer Science and Economics, where I worked with [David Chiang](https://www3.nd.edu/~dchiang/) on Natural Language Processing.

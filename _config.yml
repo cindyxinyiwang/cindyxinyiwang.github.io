@@ -3,7 +3,7 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: Xinyi
+first_name: Xinyi(Cindy)
 middle_name: 
 last_name: Wang
 #email: you@example.com
@@ -126,8 +126,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: # cleared to hide header in blog page via template logic
+blog_description: # cleared to hide header in blog page via template logic
 permalink: /blog/:year/:title/
 lsi: true # produce an index for related posts
 
@@ -161,9 +161,10 @@ disqus_shortname: al-folio # put your disqus shortname
 # External sources.
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
+
+#external_sources:
+#  - name: medium.com
+#    rss_url: https://medium.com/@al-folio/feed
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -232,9 +233,10 @@ exclude:
   - _pages/repositories.md
   - _pages/profiles.md
   - _pages/dropdown.md
-  - _pages/blog.md
+#  - _pages/blog.md
   - _pages/teaching.md
   - _pages/publications.md 
+  - _posts/sample_post/**
 keep_files:
   - CNAME
   - .nojekyll
@@ -291,8 +293,8 @@ jekyll-archives:
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-display_tags: ["formatting", "images", "links", "math", "code"] # these tags will be displayed on the front page of your blog
-display_categories: ["blockquotes"] # these categories will be displayed on the front page of your blog
+display_tags: [] # hide tag list on blog front page
+display_categories: [] # hide category list on blog front page
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
@@ -300,7 +302,7 @@ display_categories: ["blockquotes"] # these categories will be displayed on the 
 
 scholar:
   last_name: [Wang]
-  first_name: [Xinyi]
+  first_name: [Xinyi (Cindy)]
 
   style: apa
   locale: en
@@ -517,13 +519,13 @@ third_party_libraries:
     version: "1.9.4"
   mathjax:
     integrity:
-      js: "sha256-rjmgmaB99riUNcdlrDtcAiwtLIojSxNyUFdl+Qh+rB4="
+      js: "sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI="
     local:
       fonts: "output/chtml/fonts/woff-v2/"
     url:
       fonts: "https://cdn.jsdelivr.net/npm/mathjax@{{version}}/es5/output/chtml/fonts/woff-v2/"
-      js: "https://cdn.jsdelivr.net/npm/mathjax@{{version}}/es5/tex-mml-chtml.min.js"
-    version: "3.2.0"
+      js: "https://cdn.jsdelivr.net/npm/mathjax@{{version}}/es5/tex-mml-chtml.js"
+    version: "3.2.2"
   masonry:
     integrity:
       js: "sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI="
